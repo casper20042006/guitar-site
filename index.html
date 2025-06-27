@@ -3,83 +3,109 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>John RockStar – Nauka gry na gitarze</title>
+<title>Ping-Pong Pro – Trener Tenisa Stołowego</title>
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header class="topbar">
-    <span class="logo">🎸</span>
+    <span class="logo">🏓</span>
     <nav>
         <a href="#hero">Start</a>
-        <a href="#about">O mnie</a>
-        <a href="#lessons">Lekcje</a>
+        <a href="#services">Oferta</a>
+        <a href="#price">Cennik</a>
         <a href="#contact">Kontakt</a>
     </nav>
 </header>
 
 <section id="hero" class="hero">
     <div class="hero__overlay">
-        <h1>John RockStar</h1>
-        <h2>NAUKA GRY NA GITARZE</h2>
-        <a href="#price" class="btn">Zobacz cennik lekcji</a>
+        <h1>Ping-Pong Pro</h1>
+        <h2>TRENINGI TENISA STOŁOWEGO</h2>
+        <a href="#services" class="btn">Zobacz ofertę</a>
     </div>
 </section>
 
-<section class="services" id="about">
-    <h2>Czym się zajmuję?</h2>
+<section class="motto">
+    <h2>„Szybkość. Precyzja. Pasja.”</h2>
+    <p>Indywidualne i grupowe zajęcia dla wszystkich grup wiekowych – od amatora do zawodnika ligowego.</p>
+</section>
+
+<section id="services" class="services">
+    <h2>Zakres usług</h2>
     <div class="cards">
         <article class="card">
-            <img src="images/studio.png" alt="Nagrania studyjne">
-            <h3>Nagrania studyjne</h3>
-            <p>Sesje nagraniowe w profesjonalnym studio muzycznym.</p>
-            <a href="#" class="btn--small">Posłuchaj nagrań</a>
+            <img src="images/training.jpg" alt="Trening indywidualny">
+            <h3>Trening indywidualny</h3>
+            <p>Sesje 1-na-1 z analizą techniki i planem rozwoju.</p>
+            <a href="#price" class="btn--small">Cennik</a>
         </article>
 
         <article class="card">
-            <img src="images/compose.png" alt="Kompozycje">
-            <h3>Kompozycje</h3>
-            <p>Komponowanie muzyki do filmów oraz audycji radiowych.</p>
-            <a href="#" class="btn--small">Posłuchaj kompozycji</a>
+            <img src="images/junior.png" alt="Grupy juniorskie">
+            <h3>Grupy juniorskie</h3>
+            <p>Zabawa i nauka dla dzieci 7-14 lat, maks. 6 osób w grupie.</p>
+            <a href="#price" class="btn--small">Cennik</a>
         </article>
 
         <article class="card">
-            <img src="images/guitar.avif" alt="Koncerty na żywo">
-            <h3>Koncerty na żywo</h3>
-            <p>Muzyka grana na żywo z zespołem RockStars Brothers.</p>
-            <a href="#" class="btn--small">Zobacz koncert</a>
+            <img src="images/paddle.avif" alt="Sparingi i turnieje">
+            <h3>Sparingi / turnieje</h3>
+            <p>Organizacja gier kontrolnych, turniejów firmowych i ligowych.</p>
+            <a href="#price" class="btn--small">Cennik</a>
         </article>
     </div>
 </section>
 
-<section id="lessons" class="lessons">
-    <img src="images/guitar.avif" alt="Gitara" class="lessons__img">
+<section id="price" class="price">
+    <h2>Cennik</h2>
+    <div class="cards">
+        <article class="card">
+            <h3>Trening indywidualny</h3>
+            <p>60 min &nbsp;–&nbsp; 120 zł</p>
+            <p>Pakiet 4&nbsp;treningów &nbsp;–&nbsp; 440 zł</p>
+        </article>
+        <article class="card">
+            <h3>Grupy juniorskie</h3>
+            <p>1&nbsp;zajęcia / tydzień &nbsp;–&nbsp; 150 zł / m-c</p>
+            <p>2&nbsp;zajęcia / tydzień &nbsp;–&nbsp; 260 zł / m-c</p>
+        </article>
+        <article class="card">
+            <h3>Sparingi / turnieje</h3>
+            <p>Sparingi z trenerem &nbsp;–&nbsp; 80 zł / 90 min</p>
+            <p>Turniej firmowy &nbsp;–&nbsp; od 600 zł</p>
+        </article>
+    </div>
+</section>
+
+<section class="lessons">
+    <img src="images/paddle.png" alt="Rakietka" class="lessons__img">
     <div class="lessons__text">
-        <h2>Lekcje gry na gitarze</h2>
-        <p>Jestem absolwentem Wydziału Artystycznego UMCS w Lublinie. W szkole muzycznej oraz na studiach wybrałem grę na gitarze – to moja wielka pasja! Od 10 lat prowadzę lekcje gitary klasycznej i elektrycznej.</p>
-        <a href="#" class="btn">Posłuchaj lekcji próbnej</a>
+        <h2>Dlaczego warto?</h2>
+        <p>Jestem licencjonowanym trenerem PZTS z 15-letnim doświadczeniem w prowadzeniu zawodników na każdym poziomie. Oferuję dopasowane plany treningowe, analizę wideo oraz nowoczesne metody szkoleniowe.</p>
+        <a href="#" class="btn">Umów trening próbny</a>
     </div>
 </section>
 
 <section id="contact" class="contact">
-    <h2>Napisz do mnie</h2>
+    <h2>Kontakt</h2>
     <form class="contact__form">
         <input type="text" placeholder="Imię i nazwisko" required>
         <input type="email" placeholder="Adres e-mail" required>
-        <textarea rows="6" placeholder="Treść wiadomości" required></textarea>
-        <button type="submit" class="btn">Wyślij dane</button>
+        <textarea rows="6" placeholder="Twoja wiadomość" required></textarea>
+        <button type="submit" class="btn">Wyślij</button>
     </form>
 
     <address class="contact__info">
-        <strong>John RockStar</strong><br>
-        ul. Muzyczna 16, 20-111 Lublin<br>
-        tel. 444-33-11<br>
-        e-mail: kontakt@rockstar.pl
+        <strong>Ping-Pong Pro</strong><br>
+        ul. Sportowa 10, 00-100 Warszawa<br>
+        tel. 600-123-456<br>
+        e-mail: trener@pingpongpro.pl
     </address>
 </section>
 
-<footer class="footer">© John RockStar 2019</footer>
+<footer class="footer">© Ping-Pong Pro 2025</footer>
 
 </body>
 </html>
