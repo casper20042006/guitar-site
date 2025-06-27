@@ -1,0 +1,34 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Open Sans',sans-serif;line-height:1.6;color:#333;background:#fafafa}
+a{text-decoration:none;color:inherit}
+h1,h2,h3{font-weight:600}
+.btn,.btn--small{display:inline-block;background:#0d5265;color:#fff;padding:12px 24px;border-radius:4px;font-size:.9rem;transition:opacity .2s}
+.btn--small{padding:8px 18px;font-size:.8rem}
+.btn:hover,.btn--small:hover{opacity:.8}
+.topbar{background:#063142;color:#fff;padding:12px 32px;display:flex;align-items:center;justify-content:space-between;gap:32px}
+.topbar nav a{margin-left:24px;font-size:.9rem}
+.hero{background:url('images/hero.jpg') center/cover no-repeat;height:65vh;display:flex;align-items:center;justify-content:center;text-align:center;position:relative}
+.hero__overlay{background:rgba(0,0,0,.55);padding:48px 32px;width:100%}
+.hero h1{font-size:2.2rem;letter-spacing:1px;color:#fff}
+.hero h2{font-size:1.4rem;margin:16px 0 28px;color:#fff}
+.services{background:#d0d0d0;padding:80px 20px;text-align:center}
+.services h2{margin-bottom:48px;font-size:1.8rem}
+.cards{display:flex;flex-wrap:wrap;justify-content:center;gap:32px}
+.card{background:#fff;padding:40px 28px;width:290px;border-radius:8px;box-shadow:0 4px 10px rgba(0,0,0,.08);display:flex;flex-direction:column;align-items:center;gap:16px}
+.card img{width:70px}
+.card h3{font-size:1.1rem}
+.lessons{background:#697480;color:#fff;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;padding:80px 20px;gap:48px}
+.lessons__img{max-width:320px;width:100%}
+.lessons__text{max-width:420px;display:flex;flex-direction:column;gap:18px}
+.lessons__text h2{font-size:1.6rem}
+.contact{padding:80px 20px;display:flex;flex-wrap:wrap;gap:48px;justify-content:center}
+.contact h2{width:100%;text-align:center;margin-bottom:40px;font-size:1.8rem}
+.contact__form{display:flex;flex-direction:column;gap:18px;width:340px}
+.contact__form input,.contact__form textarea{padding:12px;border:1px solid #ccc;border-radius:4px;font-size:.9rem}
+.contact__info{max-width:280px;font-style:normal;line-height:1.8}
+.footer{background:#063142;color:#fff;text-align:center;padding:18px 0;font-size:.85rem}
+@media(max-width:768px){
+.topbar nav a{margin:0 12px}
+.lessons{flex-direction:column}
+.cards{flex-direction:column}
+}
